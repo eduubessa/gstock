@@ -2,10 +2,9 @@
 
 declare(strict_types=1);
 
-use App\Enum\Box\StatusBoxEnum;
-use App\Enum\Box\TypeBoxEnum;
+use App\Enums\Box\StatusBoxEnum;
+use App\Enums\Box\TypeBoxEnum;
 use App\Models\User;
-
 use function Pest\Laravel\actingAs;
 
 test('user can create a new box', function () {

@@ -1,7 +1,7 @@
 import { toUrl } from '@/lib/utils';
 import type { InertiaLinkProps } from '@inertiajs/react';
 import { usePage } from '@inertiajs/react';
-
+import { BoxStatus, BoxStatusEnum } from '@/types';
 export function useActiveUrl() {
     const page = usePage();
     const currentUrlPath = new URL(page.url, window?.location.origin).pathname;

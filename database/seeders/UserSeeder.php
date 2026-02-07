@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
             'name' => 'John Doe',
             'username' => 'john.doe',
             'password' => 'password',
-            'john.doe@alcinovagos.io',
+            'email' => 'john.doe@alcinovagos.io',
             'email_verified_at' => now(),
         ]);
     }

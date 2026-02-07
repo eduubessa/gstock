@@ -1,6 +1,9 @@
 import { InertiaLinkProps } from '@inertiajs/react';
 import { LucideIcon } from 'lucide-react';
 
+export * from './datatable';
+export * from './box';
+
 export interface Auth {
     user: User;
 }

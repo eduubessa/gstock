@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Http\Requests\Box;
 
-use App\Enum\Box\StatusBoxEnum;
-use App\Enum\Box\TypeBoxEnum;
+use App\Enums\Box\StatusBoxEnum;
+use App\Enums\Box\TypeBoxEnum;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
